@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#d8f56a"><meta name="description" content="A fast, joyful live quiz. Start a game, share the code, and play together.">
+  <title>Quiz Night — Play together</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/socket.io/socket.io.js" defer></script>
+  <script src="/client.js" type="module"></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/" aria-label="Quiz Night home"><span class="brand-mark">q<span>!</span></span><span>quiz night</span></a><div class="top-note"><span class="live-dot"></span> Free to play · No accounts</div></header>
+  <main id="app"></main>
+  <div id="toast" class="toast" role="status"></div>
+  <footer>Made for the room you’re in. <span>✳</span></footer>
+</body>
+</html>
